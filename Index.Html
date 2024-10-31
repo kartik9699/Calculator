@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="display" readonly />
+        <div class="grid-number">
+            <input type="button" class="item" id="item1" value="1" onclick="getNumber('1')">
+            <input type="button" class="item" id="item2" value="2" onclick="getNumber('2')">
+            <input type="button" class="item" id="item3" value="3" onclick="getNumber('3')">
+            <input type="button" class="item" id="item4" value="+" onclick="getNumber('+')">
+            <input type="button" class="item" id="item5" value="4" onclick="getNumber('4')">
+            <input type="button" class="item" id="item6" value="5" onclick="getNumber('5')">
+            <input type="button" class="item" id="item7" value="6" onclick="getNumber('6')">
+            <input type="button" class="item" id="item8" value="-" onclick="getNumber('-')">
+            <input type="button" class="item" id="item9" value="7" onclick="getNumber('7')">
+            <input type="button" class="item" id="item10" value="8" onclick="getNumber('8')">
+            <input type="button" class="item" id="item11" value="9" onclick="getNumber('9')">
+            <input type="button" class="item" id="item12" value="*" onclick="getNumber('*')">
+            <input type="button" class="item" id="item15" value="C" onclick="Clear()">
+            <input type="button" class="item" id="item13" value="0" onclick="getNumber('0')">
+            <input type="button" class="item" id="item16" value="/" onclick="getNumber('/')">
+            <input type="button" class="item" id="item14" value="=" onclick="ans()">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
